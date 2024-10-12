@@ -17,9 +17,9 @@ export default function ProductSection() {
         {/* products */}
         <div className="w-full h-[70%] grid grid-cols-[repeat(6,minmax(300px,1fr))]  gap-6 overflow-x-auto custom-scrollbar">
             {/* products-box */}
-          <div>
+          <div className="overflow-hidden">
             {/* image-box */}
-            <div className="relative bg-[url('/assists/homepage/products/gray-sofa.png')]  bg-cover bg-center  w-full h-[80%]">
+            <div className="relative bg-[url('/assists/homepage/products/gray-sofa.png')]  bg-cover bg-center  w-full h-[80%] ">
             <div className="flex gap-3 absolute flex-col top-6 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
             <div className=" bg-green-500 text-white px-5 py-1 font-semibold text-lg rounded-md">-50%</div>
@@ -35,7 +35,7 @@ export default function ProductSection() {
                  <p  className="font-semibold">$199.00 <del className="px-3 font-semibold text-gray-500" >$400.00</del> </p>
             </div>
           </div>
-          <div>
+          <div className="overflow-hidden">
           <div className="relative bg-[url('/assists/homepage/products/tablelamp.png')]  bg-cover bg-center  w-full h-[80%]">
           <div className="flex gap-3 absolute flex-col top-6 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
@@ -50,7 +50,7 @@ export default function ProductSection() {
             </div>
 
           </div>
-          <div>
+          <div className="overflow-hidden">
           <div className="relative bg-[url('/assists/homepage/products/beigetablelamp.png')]  bg-cover bg-center  w-full h-[80%]">
           <div className="flex gap-3 absolute flex-col top-6 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
@@ -63,7 +63,7 @@ export default function ProductSection() {
                  <p  className="font-semibold">$24.99</p>
             </div>
           </div>
-          <div>
+          <div className="overflow-hidden">
           <div className="relative bg-[url('/assists/homepage/products/basket.png')]  bg-cover bg-center  w-full h-[80%]">
           <div className="flex gap-3 absolute flex-col top-6 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
@@ -76,7 +76,7 @@ export default function ProductSection() {
                  <p  className="font-semibold">$24.99</p>
             </div>
           </div>
-          <div>
+          <div className="overflow-hidden">
           <div className="relative bg-[url('/assists/homepage/products/toasted.png')]  bg-cover bg-center  w-full h-[80%]">
           <div className="flex gap-3 absolute flex-col top-6 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
@@ -89,7 +89,7 @@ export default function ProductSection() {
                  <p  className="font-semibold">$224.99</p>
             </div>
           </div>
-          <div>
+          <div className="overflow-hidden">
           <div className="relative bg-[url('/assists/homepage/products/gray-sofa.png')]  bg-cover bg-center  w-full h-[80%]">
           <div className="flex gap-3 absolute flex-col top-6 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>

@@ -27,8 +27,8 @@ export default function NotificationBar() {
               src="/assists/homepage/ticket-vector.png"
               alt="ticket"
               layout="intrinsic"
-              width={100}
-              height={100}
+              width={40}
+              height={20}
             />
             <p className="font-semibold">30% off storewide — Limited time!</p>
             <div className="hidden sm:flex text-blue-600 underline underline-offset-4">
