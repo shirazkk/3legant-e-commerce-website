@@ -8,10 +8,9 @@ export default function Hero() {
         {/* slider-image */}
         <div className="relative  w-[90%] flex justify-center items-center">
           <Image
-            
-            layout="intrinsic" // Use intrinsic layout for custom size control
-            width={1920} // Required by Next.js
-            height={1080} // Required by Next.js
+            layout="intrinsic" 
+            width={1920} 
+            height={1080} 
             objectFit="cover"
             quality={100}
             src="/assists/homepage/hero-section.png"

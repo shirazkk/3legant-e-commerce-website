@@ -29,7 +29,7 @@ export default function SecondBanner() {
               It’s more affordable than ever to give every room in your home a stylish makeover.
             </p>
             <div className="flex justify-start">
-              <LinksText texticon="Shop Now" style />
+              <LinksText texticon="Shop Now" />
             </div>
           </div>
         </div>

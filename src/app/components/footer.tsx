@@ -1,7 +1,8 @@
 import Link from "next/link";
 import FacebookIcon from "./facbookicon";
 import InstagramIcon from "./instagramicon";
-import YoutubeIcon from "./youtubeicon";
+import YoutubeIcon from "./youtubeicon"
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -9,8 +10,10 @@ export default function Footer() {
       <div className="w-[90%] xl:w-[75%] h-full flex gap-24  justify-center items-center flex-col">
         <div className="flex gap-4 mt-10 justify-between flex-col sm:flex-col md:flex-row  items-center w-full">
           <div className="flex gap-2 sm:gap-10 md:gap-2 lg:gap-10 items-center  sm:flex-row flex-col justify-center">
-            <img
-              
+            <Image
+              layout="intrinsic"
+              width={100}
+              height={100}
               id="white-logo"
               className="backdrop-filter-none"
               src="/assists/3legant..png"

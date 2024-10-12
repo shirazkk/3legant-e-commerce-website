@@ -5,7 +5,7 @@ import NotificationBar from "../components/notificationbar";
 import ShopHeroSection from "../components/shop_herosection";
 import ShopProducts from "../components/shop_productsection";
 
-export default function(){
+export default function ShopPage(){
     return(
         <main>
             <NotificationBar/>

@@ -89,7 +89,7 @@ export default function ShopProducts() {
           <div className="relative bg-[url('/assists/shop_page/products/Pasteimage-2.png')]  bg-cover bg-center  h-[450px]">
           <div className=" absolute w-full flex bottom-4 justify-center">
 
-          <Button className="hello" text="Add To Cart"/>
+          <Button  text="Add To Cart"/>
           </div>
           <div className="flex gap-3 absolute flex-col top-6 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>

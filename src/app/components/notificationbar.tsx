@@ -2,6 +2,7 @@
 import Link from "next/link";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import CloseIcon from "@mui/icons-material/Close";
+import Image from "next/image"
 import { useState } from "react";
 
 export default function NotificationBar() {
@@ -21,10 +22,13 @@ export default function NotificationBar() {
         >
           {/* center-text+icons */}
           <div className="flex my-0 mx-auto gap-1">
-            <img
+            <Image
               className="px-2"
               src="/assists/homepage/ticket-vector.png"
               alt="ticket"
+              layout="intrinsic"
+              width={100}
+              height={100}
             />
             <p className="font-semibold">30% off storewide — Limited time!</p>
             <div className="hidden sm:flex text-blue-600 underline underline-offset-4">

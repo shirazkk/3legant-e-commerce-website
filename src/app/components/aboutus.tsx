@@ -28,7 +28,7 @@ export default function AboutUs() {
               Our customer service is always prepared to support you 24/7.
             </p>
 
-            <LinksText texticon="Shop Now" style />
+            <LinksText texticon="Shop Now" />
           </div>
         </div>
       </div>
