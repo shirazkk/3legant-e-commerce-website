@@ -1,24 +1,42 @@
+"use client";
 import Link from "next/link";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import CloseIcon from "@mui/icons-material/Close";
-export default function NotificationBar() {
-  return (
-    <div className="flex  items-center justify-center p-1 bg-gray-100">
-      {/* center-text+icons */}
+import { useState } from "react";
 
-      <div className="flex my-0 mx-auto gap-1">
-        <img className="px-2" src="/assists/homepage/ticket-vector.png" alt="" />
-        <p className="font-semibold">30% off storewide — Limited time!</p>
-        <div className="underline"></div>
-        <div className="hidden sm:flex text-blue-600 underline  underline-offset-4">
-          <Link  href="#">Shop Now</Link>
-          <ArrowForwardIcon />
-         
+export default function NotificationBar() {
+  const [isVisible, setIsVisible] = useState(true);
+
+  const closeNotification = () => {
+    setIsVisible(false); 
+  };
+
+  return (
+    <>
+      {isVisible && (
+        <div
+          className={`flex items-center justify-center p-1 bg-gray-100 transition-transform duration-1000 ease-in-out transform ${
+            isVisible ? "translate-y-0" : "-translate-y-full"
+          }`}
+        >
+          {/* center-text+icons */}
+          <div className="flex my-0 mx-auto gap-1">
+            <img
+              className="px-2"
+              src="/assists/homepage/ticket-vector.png"
+              alt="ticket"
+            />
+            <p className="font-semibold">30% off storewide — Limited time!</p>
+            <div className="hidden sm:flex text-blue-600 underline underline-offset-4">
+              <Link href="#">Shop Now</Link>
+              <ArrowForwardIcon />
+            </div>
+          </div>
+          <div>
+            <CloseIcon className="text-black cursor-pointer" onClick={closeNotification} />
+          </div>
         </div>
-        </div>
-        <div className="r">
-          <CloseIcon className="text-black"/>
-        </div>
-      </div>
+      )}
+    </>
   );
 }

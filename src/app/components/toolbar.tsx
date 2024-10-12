@@ -3,15 +3,15 @@ import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutl
 export default function ToolBar() {
   return (
     <div>
-    <div className="flex justify-between  items-center w-full gap-5">
-      <h1 className="text-2xl font-semibold">Living Room</h1>
-      <div className="flex gap-8">
-        <button className="p-1 font-semibold">
+    <div className="flex justify-between  items-center w-full gap-1 sm:gap-5">
+      <h1 className="text-lg sm:text-xl md:text-2xl font-semibold py-2">Living Room</h1>
+      <div className=" flex gap-0  sm:gap-8 md:gap-4">
+        <button className=" py-1 font-semibold sm:text-lg text-sm">
           Sort by
-          <ArrowForwardIosOutlinedIcon className="w-5 rotate-90 p-1" />
+          <ArrowForwardIosOutlinedIcon className="w-5  rotate-90 p-1" />
         </button>
 
-        <div className="flex justify-center gap-4 border-[2px]  items-center">
+        <div className="flex justify-center gap-1 sm:gap-4 border-[2px]  items-center">
             <div className="bg-gray-200 p-1">
           <svg
           

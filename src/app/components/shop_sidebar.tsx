@@ -2,10 +2,10 @@ import CategoriesLinks from "./categories";
 
 export default function SideBar() {
   return (
-    <div className="flex justify-start h-auto w-full ">
+    <div className="lg:flex justify-start h-auto w-full hidden">
       <div className="mt-12 flex-col flex gap-10 w-64">
         {/* header */}
-        <div className="flex gap-3 items-center">
+        <div className="flex gap-3  items-center">
           <svg
             width="20"
             height="18"
@@ -20,14 +20,14 @@ export default function SideBar() {
               stroke-linecap="round"
             />
           </svg>
-          <h3 className="text-2xl font-semibold">Filter</h3>
+          <h3 className="text-2xl p-2 font-semibold">Filter</h3>
         </div>
         {/* categories-section */}
         <div className="flex flex-col gap-3">
             
             {/* heading */}
             <div>
-            <h3 className="text-2xl font-semibold">CATEGORIES</h3>
+            <h3 className="text-2xl py-2 font-semibold">CATEGORIES</h3>
             </div>
                {/* content */}
             <div>
@@ -46,7 +46,7 @@ export default function SideBar() {
         <div className="flex gap-3 flex-col">
             {/* heading */}
             <div>
-              <h3 className="text-2xl font-semibold">PRICE</h3>
+              <h3 className="text-2xl py-2 font-semibold">PRICE</h3>
             </div>
              {/* content */}
             <div className="flex gap-3 flex-col">

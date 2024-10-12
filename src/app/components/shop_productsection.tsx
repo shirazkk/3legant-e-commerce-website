@@ -9,20 +9,19 @@ import Button from "./button";
 export default function ShopProducts() {
   return (
     <section className="h-auto flex items-center justify-center">
-      <div className=" w-[80%] h-full flex gap-9">
+      <div className=" w-full px-5 lg:px-0 lg:w-[90%] xl:w-[84%]  h-full flex gap-0 lg:gap-9">
         {/* sidebar */}
         <div className="h-full">
           <SideBar />
         </div>
         {/* grid-products */}
-        <div className="w-[75%] h-auto mt-12 overflow-hidden">
+        <div className="w-full lg:w-[80%] h-auto mt-12 overflow-hidden">
           {/* toolbar */}
           <ToolBar/>
           {/* all-products */}
           
 
-          <div className=" mt-12 h-auto w-full grid grid-cols-1 gap-6 overflow-hidden 
-  xl:grid-cols-2 2xl:grid-cols-3">
+          <div className=" mt-12 h-auto w-full grid grid-cols-1 gap-6 overflow-hidden sm:grid-cols-2 xl:grid-cols-3">
             {/* products-box */}
           <div className="overflow-hidden">
             {/* image-box */}
@@ -90,7 +89,7 @@ export default function ShopProducts() {
           <div className="relative bg-[url('/assists/shop_page/products/Pasteimage-2.png')]  bg-cover bg-center  h-[450px]">
           <div className=" absolute w-full flex bottom-4 justify-center">
 
-          <Button  text="Add To Cart"/>
+          <Button className="hello" text="Add To Cart"/>
           </div>
           <div className="flex gap-3 absolute flex-col top-6 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
@@ -98,6 +97,7 @@ export default function ShopProducts() {
             </div>
             <FavoriteBorderIcon className="absolute right-3 cursor-pointer hover:text-red-500  top-9 bg-white drop-shadow-sofa-down  rounded-full p-3 text-[3rem]"/>
           </div>
+         
           <div  className="my-4">
                 <p> <StarIcon/> <StarIcon/> <StarIcon/> <StarIcon/> <StarIcon/> </p>
                  <p className="font-semibold text-lg">Black Tray table</p>
@@ -165,11 +165,13 @@ export default function ShopProducts() {
           {/* end */}
           
         </div>
-        <div className="w-full flex justify-center items-center mt-20-">
-            <button className="hover:text-gray-700 w-[20%] border-2 bg-transparent py-2 rounded-lg text-xl text-black">Show more</button>
+        <div className="w-full  flex justify-center items-center mt-20">
+            <button className="hover:text-gray-700  w-[40%] sm:w-[30%] md:w-[20%] lg:w-[20%] xl:w-[15%] border-2 bg-transparent py-2 rounded-lg text-xl text-black">Show more</button>
         </div>
         </div>
       </div>
     </section>
   );
 }
+
+

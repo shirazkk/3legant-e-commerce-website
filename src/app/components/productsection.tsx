@@ -5,12 +5,14 @@ export default function ProductSection() {
   return (
     <section className="flex justify-center gap-32  h-screen">
       {/* product tittle */}
-      <div className="w-[80%]  ">
+      <div className="w-[80%] mt-4 overflow-hidden">
         <div className="flex justify-between items-center w-full ">
           <h1 className="py-5 px-2 text-5xl font-semibold ">
             New <br /> Arrivals
           </h1>
-          <LinksText texticon="More Products" />
+          <div className="sm:block hidden">
+          <LinksText  texticon="More Products" />
+          </div>
         </div>
         {/* products */}
         <div className="w-full h-[70%] grid grid-cols-[repeat(6,minmax(300px,1fr))]  gap-6 overflow-x-auto custom-scrollbar">
@@ -101,6 +103,9 @@ export default function ProductSection() {
             </div>
           </div>
         </div>
+          <div className="sm:hidden block mt-5">
+          <LinksText  texticon="More Products" />
+          </div>
       </div>
     </section>
   );

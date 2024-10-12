@@ -5,23 +5,24 @@ import YoutubeIcon from "./youtubeicon";
 
 export default function Footer() {
   return (
-    <footer className="h-[350px] flex justify-center items-center bg-black">
-      <div className="w-[80%] h-[70%] flex gap-24 justify-center items-center flex-col">
-        <div className="flex justify-between items-center w-[80%]">
-          <div className="flex gap-10 items-center justify-center">
+    <footer className="sm:h-[400px] h-auto flex justify-center  items-center bg-black">
+      <div className="w-[90%] xl:w-[75%] h-full flex gap-24  justify-center items-center flex-col">
+        <div className="flex gap-4 mt-10 justify-between flex-col sm:flex-col md:flex-row  items-center w-full">
+          <div className="flex gap-2 sm:gap-10 md:gap-2 lg:gap-10 items-center  sm:flex-row flex-col justify-center">
             <img
+              
               id="white-logo"
               className="backdrop-filter-none"
               src="/assists/3legant..png"
               alt="logo"
             />
-            <p className="text-gray-300 font-[10] text-2xl h-full">|</p>
+            <p className="text-customGrayBlue  sm:rotate-0 rotate-90 text-2xl h-fit">|</p>
             <p className="text-gray-300">Gift & Decoration Store</p>
           </div>
 
           <div>
-            <div>
-              <ul className="flex justify-center items-center">
+            <div className=" mt-9 sm:mt-0">
+              <ul className="flex justify-center flex-col  sm:flex-row  gap-9 sm:gap-0 items-center">
                 <li className="px-5 text-gray-300 active:text-stone-500 hover:text-blue-600">
                   <Link href="/">Home</Link>
                 </li>
@@ -35,33 +36,43 @@ export default function Footer() {
                   <Link href="/contactus">Blog</Link>
                 </li>
                 <li className=" text-gray-300  active:text-stone-500 hover:text-blue-600">
-                  <Link href="#">Contact Us</Link>
+                  <Link href="/contactus">Contact Us</Link>
                 </li>
               </ul>
             </div>
           </div>
+        
         </div>
+          
 
-        <div className="flex justify-between items-center w-[80%]">
-          <div className="flex w-[70%]">
-            <p className="text-gray-300">
-              {" "}
+         
+        
+        <div className="flex justify-between  md:gap-0 gap-8  sm:flex-col md:flex-row flex-col-reverse items-center w-full">
+          <div className="flex w-full sm:flex-col md:flex-row md:gap-0 gap-8 flex-col-reverse sm:justify-normal sm:items-stretch justify-center items-center">
+            <p className="text-gray-300 text-center ">
+              {" "} 
               Copyright © 2023 3legant. All rights reserved
             </p>
-            <li className="px-5  text-white active:text-black hover:text-blue-600 cursor-pointer">
+            <div className=" flex items-center justify-center md:justify-between" >
+            <li className="px-5   text-white active:text-black hover:text-blue-600 cursor-pointer">
               Privacy Policy
             </li>
             <li className="px-5 text-white  active:text-black hover:text-blue-600 cursor-pointer">
               Terms of Use
             </li>
+            </div>
           </div>
           {/* social-icons */}
-          <div className="w-[30%] flex gap-7 justify-end">
+          <div className="sm:w-40 w-[80%] flex gap-7 justify-center sm:justify-end">
             <InstagramIcon />
             <FacebookIcon />
             <YoutubeIcon />
           </div>
+         
         </div>
+           
+        
+          
       </div>
     </footer>
   );

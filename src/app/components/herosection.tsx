@@ -4,11 +4,11 @@ import ArrowForwardOutlinedIcon from "@mui/icons-material/ArrowForwardOutlined";
 export default function Hero() {
   return (
     <div className="h-auto w-full">
-      <div className="flex justify-center items-center flex-col">
+      <div className=" flex justify-center items-center flex-col">
         {/* slider-image */}
-        <div className="relative w-[90%] flex justify-center items-center">
+        <div className="relative  w-[90%] flex justify-center items-center">
           <Image
-            className=" " // Use Tailwind CSS to apply width in rem
+            
             layout="intrinsic" // Use intrinsic layout for custom size control
             width={1920} // Required by Next.js
             height={1080} // Required by Next.js
@@ -33,13 +33,13 @@ export default function Hero() {
 
       <div className="flex justify-center items-center">
         <div className="w-[90%] sm:w-[90%] lg:w-[90%] md:w-[90%] flex flex-col sm:flex-col md:flex-row sm:justify-between sm:items-center sm:gap-5 mt-5">
-          <div className="mb-4 sm:mb-0">
-            <h1 className="text-4xl sm:text-6xl md:text-5xl md:w-[90%]  lg:text-5xl leading-[48px] sm:leading-[60px] lg:leading-[76px] tracking-tighter font-semibold overflow-hidden text-center sm:text-left">
+          <div className="mb-4 sm:mb-0 w-full flex justify-center items-center">
+            <h1 className=" text-4xl sm:text-6xl md:text-5xl md:w-[90%]   lg:text-7xl leading-[48px] sm:leading-[60px] lg:leading-[76px] tracking-tighter font-semibold overflow-hidden text-center sm:text-left">
               Simply Unique <span className="text-gray-500">/</span> <br />
               Simply Better <span className="text-gray-500">.</span>
             </h1>
           </div>
-          <div className="px-7 sm:text-left ">
+          <div className=" px-7 sm:text-left ">
             <span className="pr-2 text-base sm:text-lg md:text-xl font-semibold">
               3legant
             </span>
