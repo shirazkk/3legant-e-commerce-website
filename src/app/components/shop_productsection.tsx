@@ -26,7 +26,7 @@ export default function ShopProducts() {
           <div className="overflow-hidden">
             {/* image-box */}
             <div className="relative bg-[url('/assists/homepage/products/gray-sofa.png')]  bg-cover bg-center   h-[450px]">
-            <div className="flex gap-3 absolute flex-col top-6 left-6">
+            <div className="flex gap-3 absolute flex-col top-3 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
             <div className=" bg-green-500 text-white px-5 py-1 font-semibold text-lg rounded-md">-50%</div>
             </div>
@@ -43,7 +43,7 @@ export default function ShopProducts() {
           {/* end */}
           <div className="overflow-hidden">
           <div className="relative bg-[url('/assists/shop_page/products/banner-img1.png')]  bg-cover bg-center  h-[450px]">
-          <div className="flex gap-3 absolute flex-col top-6 left-6">
+          <div className="flex gap-3 absolute flex-col top-3 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
             <div className=" bg-green-500 text-white px-5 py-1 font-semibold text-lg rounded-md">-50%</div>
             </div>
@@ -59,7 +59,7 @@ export default function ShopProducts() {
           {/* end */}
           <div className="overflow-hidden">
           <div className="relative bg-[url('/assists/homepage/products/beigetablelamp.png')]  bg-cover bg-center h-[450px]">
-          <div className="flex gap-3 absolute flex-col top-6 left-6">
+          <div className="flex gap-3 absolute flex-col top-3 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
             <div className=" bg-green-500 text-white px-5 py-1 font-semibold text-lg rounded-md">-50%</div>
             </div>
@@ -73,7 +73,7 @@ export default function ShopProducts() {
           {/* end */}
           <div className="overflow-hidden">
           <div className="relative bg-[url('/assists/shop_page/products/Pasteimage-1.png')]  bg-cover bg-center  h-[450px]">
-          <div className="flex gap-3 absolute flex-col top-6 left-6">
+          <div className="flex gap-3 absolute flex-col top-3 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
             <div className=" bg-green-500 text-white px-5 py-1 font-semibold text-lg rounded-md">-50%</div>
             </div>
@@ -91,7 +91,7 @@ export default function ShopProducts() {
 
           <Button  text="Add To Cart"/>
           </div>
-          <div className="flex gap-3 absolute flex-col top-6 left-6">
+          <div className="flex gap-3 absolute flex-col top-3 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
             <div className=" bg-green-500 text-white px-5 py-1 font-semibold text-lg rounded-md">-50%</div>
             </div>
@@ -107,7 +107,7 @@ export default function ShopProducts() {
           {/* end */}
           <div className="overflow-hidden">
           <div className="relative bg-[url('/assists/shop_page/products/Pasteimage-3.png')]  bg-cover bg-center  h-[450px]">
-          <div className="flex gap-3 absolute flex-col top-6 left-6">
+          <div className="flex gap-3 absolute flex-col top-3 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
             <div className=" bg-green-500 text-white px-5 py-1 font-semibold text-lg rounded-md">-50%</div>
             </div>
@@ -122,7 +122,7 @@ export default function ShopProducts() {
           {/* end */}
           <div className="overflow-hidden">
           <div className="relative bg-[url('/assists/shop_page/products/Pasteimage-4.png')]  bg-cover bg-center  h-[450px]">
-          <div className="flex gap-3 absolute flex-col top-6 left-6">
+          <div className="flex gap-3 absolute flex-col top-3 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
             <div className=" bg-green-500 text-white px-5 py-1 font-semibold text-lg rounded-md">-50%</div>
             </div>
@@ -136,7 +136,7 @@ export default function ShopProducts() {
           {/* end */}
           <div className="overflow-hidden">
           <div className="relative bg-[url('/assists/shop_page/products/tablelamp.png')]  bg-cover bg-center  h-[450px]">
-          <div className="flex gap-3 absolute flex-col top-6 left-6">
+          <div className="flex gap-3 absolute flex-col top-3 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
             <div className=" bg-green-500 text-white px-5 py-1 font-semibold text-lg rounded-md">-50%</div>
             </div>
@@ -151,7 +151,7 @@ export default function ShopProducts() {
 
           <div className="overflow-hidden">
           <div className="relative bg-[url('/assists/shop_page/products/basket.png')]  bg-cover bg-center  h-[450px]">
-          <div className="flex gap-3 absolute flex-col top-6 left-6">
+          <div className="flex gap-3 absolute flex-col top-3 left-6">
             <div className=" bg-white text-black px-5 py-1 font-semibold text-lg rounded-md">New</div>
             <div className=" bg-green-500 text-white px-5 py-1 font-semibold text-lg rounded-md">-50%</div>
             </div>
