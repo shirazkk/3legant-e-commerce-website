@@ -136,9 +136,9 @@ export default function Products() {
             <hr className="mt-5" />
             <div>
               <p className="text-gray-600 text-lg py-1">Measurements</p>
-              <p className="text-xl font-medium py-1">17 1/2x20 5/8 "</p>
+              <p className="text-xl font-medium py-1">17 1/2x20 5/8&nbsp;&quot;</p>
               <p className="text-customGrayBlue py-4">
-                Choose Color <ArrowForwardIosOutlinedIcon className="w-4" />{" "}
+                Choose Color <ArrowForwardIosOutlinedIcon className="w-4" />
               </p>
               <p className="text-lg py-1">Black</p>
             </div>
